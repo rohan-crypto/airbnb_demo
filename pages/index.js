@@ -56,15 +56,15 @@ export default function Home({exploreData, cardsData}) {
           <h2 className="text-4xl font-bold text-gray-800 mb-1">Discover Experiences</h2>
           <h3 className="text-3xl mb-6">Unique activities with local experts – in person or online.</h3>
           <div className="flex space-x-4 items-center justify-start">
-          <div className="flex space-x-4 flex-col">
+          <div className="flex flex-col">
               <MediumCard2 key={1} img="https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=720" 
                 title="Experiences" description="Local things to do, wherever you are."/>
           </div>
-          <div className="flex flex-col space-x-4">
+          <div className="flex flex-col">
               <MediumCard2 key={2} img="https://a0.muscache.com/im/pictures/0ce799cb-7553-4369-be9e-d0011e0ef636.jpg?im_w=720" 
                 title="Online Experiences" description="Live, interactive activities led by Hosts."/>
           </div>
-          <div className="flex flex-col space-x-4 relative">
+          <div className="flex flex-col relative">
               <p className="bg-white text-xs rounded-md absolute z-10 top-5 
                 left-8 py-0.5 px-2 font-semibold cursor-pointer">FEATURED</p>
               <MediumCard2 key={3} img="https://a0.muscache.com/im/pictures/f51f70fb-93b7-4974-86e8-1195b64f1353.jpg?im_w=720" 
