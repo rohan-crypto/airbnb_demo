@@ -1,0 +1,12 @@
+/* here we are creating a custom tailwind class called button  */
+
+@tailwind components;
+
+@layer components {
+    .button {
+        @apply px-4 py-2 border rounded-full
+        text-gray-800 cursor-pointer border-gray-300
+        active:scale-95 hover:shadow-md active:bg-gray-50
+        transition transform duration-100 ease-out;
+    }
+}
